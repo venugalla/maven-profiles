@@ -8,13 +8,13 @@
 	<version>0.0.1</version>
 	
 	<name>Maven Web Application</name>
-	<url>http://idexceltechnologies.com</url>
+	<url>http://winnertechnologies.com</url>
 	
 	<description>Maven Web Profiles Project</description>
 
 	<organization>
-		<name>Idexcel Technologies</name>
-		<url>http://idexceltechnologies.com/</url>
+		<name>Winner Technologies</name>
+		<url>http://winnertechnologies.com/</url>
 	</organization>
 
 	<properties>

@@ -1,4 +1,4 @@
-package com.mt;
+package com.wt;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -12,7 +12,7 @@ public class HelloWorldController {
 		@RequestMapping(method = RequestMethod.GET)
 		public String hello(ModelMap model) {
 
-			model.addAttribute("name", " Hello World!");
+			model.addAttribute("name", " Greetings from Madhu! .... WelCome to My world of Knowledge Sharing");
 			return "home";
 
 		}
