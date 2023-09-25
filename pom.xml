@@ -23,8 +23,10 @@
 		<spring.version>5.0.7.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://localhost:9000/</sonar.host.url>
-
+		<sonar.host.url>http://13.126.204.168:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Venu@12345</sonar.password>
+		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -89,12 +91,12 @@
             <snapshotRepository>
                <id>snapshots</id>
                <name>fc933276c210-snapshots</name>
-               <url>http://ec2-3-93-195-212.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
+               <url>http://43.205.139.247:8081/repository/maven-web-snapshot/</url>
          </snapshotRepository>
             <repository>
                <id>central</id>
                <name>fc933276c210-releases</name>
-               <url>http://ec2-3-93-195-212.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+               <url>http://43.205.139.247:8081/repository/maven-web-release/</url>
             </repository>
        </distributionManagement>	
 
