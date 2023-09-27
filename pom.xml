@@ -89,13 +89,13 @@
 	</dependencies>
         <distributionManagement>
             <snapshotRepository>
-               <id>snapshots</id>
-               <name>fc933276c210-snapshots</name>
+               <id>nexus</id>
+               <name>snapshots</name>
                <url>http://13.234.18.66:8081/repository/maven-web-snapshot/</url>
          </snapshotRepository>
             <repository>
-               <id>central</id>
-               <name>fc933276c210-releases</name>
+               <id>nexus</id>
+               <name>releases</name>
                <url>http://13.234.18.66:8081/repository/maven-web-release/</url>
             </repository>
        </distributionManagement>	
