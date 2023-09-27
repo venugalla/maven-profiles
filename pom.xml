@@ -91,12 +91,12 @@
             <snapshotRepository>
                <id>snapshots</id>
                <name>fc933276c210-snapshots</name>
-               <url>http://43.205.139.247:8081/repository/maven-web-snapshot/</url>
+               <url>http://13.234.18.66:8081/repository/maven-web-snapshot/</url>
          </snapshotRepository>
             <repository>
                <id>central</id>
                <name>fc933276c210-releases</name>
-               <url>http://43.205.139.247:8081/repository/maven-web-release/</url>
+               <url>http://13.234.18.66:8081/repository/maven-web-release/</url>
             </repository>
        </distributionManagement>	
 
