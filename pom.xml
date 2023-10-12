@@ -91,7 +91,7 @@
             <snapshotRepository>
                <id>nexus</id>
                <name>snapshots</name>
-               <url>http://13.235.245.219:8081/repository/maven-web-release/</url>
+               <url>http://13.235.245.219:8081/repository/maven-web-snapshot/</url>
          </snapshotRepository>
             <repository>
                <id>nexus</id>
